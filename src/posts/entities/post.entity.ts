@@ -14,6 +14,9 @@ export class PostEntity {
   @Column()
   title: string;
 
+  @Column()
+  content: string;
+
   @Column({ nullable: true })
   image?: string;
 
